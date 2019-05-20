@@ -1,7 +1,38 @@
-Thank you for your contribution!
+### :cop: Reviewers
 
-Before creating a Pull Request, please make sure to
-* read https://github.com/igniterealtime/Smack/wiki/Guidelines-for-Smack-Developers-and-Contributors
-* run `gradle check` successfully in order to make sure that your code does not break any JUnit tests and is conform to the projects code style.
-* (if applicable) mention any Jira issue codes (eg. `SMACK-XXX`) in the *body* of your commit message (not the header), so that Jira automatically links the PR to the issue.
-* squash your commits if possible/sensible.
+_Don't forget to mention the Tech Lead if this issue is important or has a big impact!_
+
+### :pushpin: References
+* **Issue:** _your issue goes here_
+* **Related pull-requests:** _list of related pull-requests (comma-separated): #1, #2_
+* **Backend dependencies:** _list of dependencies that should be integrate in production to merge this PR
+
+### :tophat: What is the goal?
+
+_Provide a description of the overall goal (you can usually copy the one from the issue)_
+
+
+### How is it being implemented?
+
+_Provide a description of the implementation_
+
+
+### How can it be tested?
+
+
+_If it cannot be tested explain why._
+
+
+### QA Risks
+
+_Describe the impact of this PR_
+
+### Code Documentation Wiki 
+
+_Do you add or change something that the android team should know like utils classes, common components or libraries?
+Please edit the Wiki and add here links to them_
+[New awesome stuff](https://github.com/jobandtalent/android-jobandtalent/wiki/Android-Code-Documentation)
+
+### GIF
+
+_Provide a suitable gif that describes your work on this pull request_
