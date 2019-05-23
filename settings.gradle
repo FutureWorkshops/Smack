@@ -26,4 +26,4 @@ include 'smack-core',
 		'smack-omemo',
 		'smack-omemo-signal',
 		'smack-omemo-signal-integration-test',
-		'smack-repl'
+		'smack-repl', ':jxmpp-util-cache', ':jxmpp-core', ':jxmpp-jid'
