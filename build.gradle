@@ -590,7 +590,7 @@ def getAndroidRuntimeJar() {
 	// AndroidUsingLinkProperties of minidns-android21.
 	def androidApiLevel = 16
 	def androidHome = getAndroidHome()
-	def androidJar = new File("$androidHome/platforms/android-${androidApiLevel}/android.jar")
+	def androidJar = new File("$androidHome/sdk/platforms/android-${androidApiLevel}/android.jar")
 	if (androidJar.isFile()) {
 		return androidJar
 	} else {
