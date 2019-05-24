@@ -13,10 +13,10 @@ ext {
 
 dependencies {
 	compile 'xpp3:xpp3:1.1.4c'
-	compile "org.jxmpp:jxmpp-core:$jxmppVersion"
-	compile "org.jxmpp:jxmpp-jid:$jxmppVersion"
+	compile project(":jxmpp-core")
+	compile project(":jxmpp-jid")
+	testCompile project(":jxmpp-jid").sourceSets.test.output
 	compile "org.minidns:minidns-core:$miniDnsVersion"
-	testCompile "org.jxmpp:jxmpp-jid:$jxmppVersion:tests"
 	testCompile "org.junit.jupiter:junit-jupiter-api:$junitVersion"
 	testCompile "org.junit.vintage:junit-vintage-engine:$junitVersion"
 	testCompile "org.xmlunit:xmlunit-core:$xmlUnitVersion"
